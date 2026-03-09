@@ -3,7 +3,7 @@
  * Handles all API requests with automatic JWT token inclusion
  */
 
-const API_BASE_URL = "/api";
+const API_BASE = "/api";
 /**
  * Generic API request handler with automatic JWT token inclusion
  */
