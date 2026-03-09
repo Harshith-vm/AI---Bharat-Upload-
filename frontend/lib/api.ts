@@ -3,8 +3,7 @@
  * Handles all API requests with automatic JWT token inclusion
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-
+const API_BASE_URL = "/api";
 /**
  * Generic API request handler with automatic JWT token inclusion
  */
